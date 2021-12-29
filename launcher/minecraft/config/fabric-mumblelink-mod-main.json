@@ -1,0 +1,9 @@
+{
+	"voipClient": "MUMBLE",
+	"voipServerUserinfo": "",
+	"voipServerHost": "",
+	"voipServerPort": -1,
+	"voipServerPath": "",
+	"voipServerQuery": "",
+	"voipServerFragment": ""
+}
