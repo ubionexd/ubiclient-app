@@ -34,9 +34,9 @@ msmc.fastLaunch("raw",
         console.log("Starting!")
         launcher.launch(opts);
 
-        launcher.on('debug', (e) => console.log(e));
-        launcher.on('data', (e) => console.log(e));
+        launcher.on('debug', () => console.log(null));
+        launcher.on('data', () => console.log(null));
     }).catch(reason => {
         //If the login fails
-        console.log("We failed to log someone in because : " + reason);
+        console.error(new Error("We failed to log someone in because : " + reason));
     })
